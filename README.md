@@ -39,8 +39,8 @@ The button changes emojis to indicate its current state:
 ## GitHub Repository
 
 - **Repository**: [kaustubh-walokar/leetcode-cleaner](https://github.com/kaustubh-walokar/leetcode-cleaner)
-- **Download URL**: https://raw.githubusercontent.com/kaustubh-walokar/leetcode-cleaner/main/leetcode-banner-hider.user.js
-- **Update URL**: https://raw.githubusercontent.com/kaustubh-walokar/leetcode-cleaner/main/leetcode-banner-hider.user.js
+- **Download URL**: https://raw.githubusercontent.com/kaustubh-walokar/leetcode-cleaner/mainline/leetcode-banner-hider.user.js
+- **Update URL**: https://raw.githubusercontent.com/kaustubh-walokar/leetcode-cleaner/mainline/leetcode-banner-hider.user.js
 
 ## Supported LeetCode Pages
 - Any other LeetCode page (the script matches all `https://leetcode.com/*` URLs)
