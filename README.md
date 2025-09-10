@@ -2,11 +2,22 @@
 
 A Tampermonkey userscript that allows you to hide and show the top banner on LeetCode pages with a simple emoji button.
 
+# AlgoMonster Banner Hider
+
+A Tampermonkey userscript that allows you to hide and show the top banner on AlgoMonster pages with a simple emoji button.
+
 ## Features
 
 - **Toggle Button**: Easily hide/show the banner with an emoji button in the top-right corner
 - **Customizable**: Change emojis, colors, and styling through configuration options
 - **Automatic Detection**: Works on all LeetCode pages to find and hide banners
+- **GitHub Ready**: Properly configured for GitHub publishing with update URLs
+
+## AlgoMonster Features
+
+- **Toggle Button**: Easily hide/show the banner with an emoji button in the top-right corner
+- **Customizable**: Change emojis, colors, and styling through configuration options
+- **Automatic Detection**: Works on all AlgoMonster pages to find and hide banners
 - **GitHub Ready**: Properly configured for GitHub publishing with update URLs
 
 ## Installation
@@ -24,9 +35,35 @@ A Tampermonkey userscript that allows you to hide and show the top banner on Lee
 3. Copy and paste the contents of `leetcode-banner-hider.user.js` into the new script
 4. Save and enable the script
 
+## AlgoMonster Installation
+
+### Using Tampermonkey Extension:
+
+1. Install the [Tampermonkey](https://www.tampermonkey.net/) browser extension
+2. Visit the [raw script file](https://raw.githubusercontent.com/kaustubh-walokar/leetcode-cleaner/main/algo-monster-banner-hider.user.js) in your browser
+3. Click "Install" when prompted
+
+### Manual Installation:
+
+1. Install the [Tampermonkey](https://www.tampermonkey.net/) browser extension
+2. Create a new userscript in Tampermonkey
+3. Copy and paste the contents of `algo-monster-banner-hider.user.js` into the new script
+4. Save and enable the script
+
 ## How It Works
 
 The script adds a toggle button (currently 🫥/😶‍🌫️) to the top-right corner of LeetCode pages. When you click it:
+
+1. If the banner is visible, it will be hidden
+2. If the banner is hidden, it will be shown again
+
+The button changes emojis to indicate its current state:
+- 🫥: Banner is currently visible
+- 😶‍🌫️: Banner is currently hidden
+
+## AlgoMonster How It Works
+
+The script adds a toggle button (currently 🫥/😶‍🌫️) to the top-right corner of AlgoMonster pages. When you click it:
 
 1. If the banner is visible, it will be hidden
 2. If the banner is hidden, it will be shown again
@@ -42,8 +79,17 @@ The button changes emojis to indicate its current state:
 - **Download URL**: https://raw.githubusercontent.com/kaustubh-walokar/leetcode-cleaner/mainline/leetcode-banner-hider.user.js
 - **Update URL**: https://raw.githubusercontent.com/kaustubh-walokar/leetcode-cleaner/mainline/leetcode-banner-hider.user.js
 
+## AlgoMonster GitHub Repository
+
+- **Repository**: [kaustubh-walokar/leetcode-cleaner](https://github.com/kaustubh-walokar/leetcode-cleaner)
+- **Download URL**: https://raw.githubusercontent.com/kaustubh-walokar/leetcode-cleaner/mainline/algo-monster-banner-hider.user.js
+- **Update URL**: https://raw.githubusercontent.com/kaustubh-walokar/leetcode-cleaner/mainline/algo-monster-banner-hider.user.js
+
 ## Supported LeetCode Pages
 - Any other LeetCode page (the script matches all `https://leetcode.com/*` URLs)
+
+## Supported AlgoMonster Pages
+- Any other AlgoMonster page (the script matches all `https://www.algomonster.com/*` and `https://algomonster.com/*` URLs)
 
 ## Requirements
 
